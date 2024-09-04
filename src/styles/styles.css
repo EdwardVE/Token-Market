@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #282c34;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+  }
+  
+  nav {
+    margin: 1rem 0;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .token-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .token-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    width: 200px;
+    border-radius: 5px;
+  }
+  .img-token {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form div {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
