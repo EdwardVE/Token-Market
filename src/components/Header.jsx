@@ -1,13 +1,23 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+import './Header.css';
 
 const Header = () => {
+    const location = useLocation();
   return (
     <header>
-      <h1>Token Marketplace</h1>
+      <h1>Stock Marketplace</h1>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/sell">Sell Token</Link>
+        
+        <Link to="/" className={location.pathname === "/" ? "active" : ""} >
+            Home
+        </Link>
+        <Link to="/sell" className={location.pathname === "/sell" ? "active" : ""} >
+            Sell Stock
+        </Link>
+        <Link to="/pera" className={location.pathname === "/pera" ? "active" : ""} >
+            Connet with Pera Wallet
+        </Link>
       </nav>
     </header>
   );

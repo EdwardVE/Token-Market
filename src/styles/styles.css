@@ -18,6 +18,10 @@ body {
     color: white;
     text-decoration: none;
   }
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
   
   .token-list {
     display: flex;
@@ -33,7 +37,7 @@ body {
   }
   .img-token {
     width: 100%;
-    height: 100px;
+    max-height: 140px;
     object-fit: contain;
     border-radius: 5px;
   }

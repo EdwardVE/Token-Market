@@ -4,7 +4,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
+// import IconButton from '@mui/material/IconButton';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Typography from '@mui/material/Typography';
 
@@ -19,10 +19,11 @@ const TokenCard = ({ token }) => {
     // </div>
     <Card sx={{ maxWidth: 345, margin: '1rem' }}>
     <CardMedia
+      style={{ maxHeight: 140, objectFit: 'contain' }}
       component="img"
       alt={token.name}
       height="140"
-      image="https://localdigitalkit.com/wp-content/uploads/2023/04/token.jpg"
+      image="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
     />
     <CardContent>
       <Typography gutterBottom variant="h5" component="div">

@@ -1,0 +1,50 @@
+/* TutorialPeraWallet.css */
+.tutorial-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tutorial-container h1 {
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.tutorial-container p {
+    font-size: 18px;
+    color: #34495e;
+    line-height: 1.6;
+}
+
+.tutorial-container ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.tutorial-container li {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+.tutorial-container img {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.tutorial-container a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.tutorial-container a:hover {
+    text-decoration: underline;
+}
