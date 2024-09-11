@@ -8,7 +8,7 @@ import { CardMedia } from '@mui/material';
 
 const ElectionsCard = ({ candidate, onVote }) => {
   return (
-    <Card sx={{ maxWidth: 345, margin: '1rem' }}>
+    <Card sx={{ width: 220, margin: '1rem' }}>
         <CardMedia
         style={{ maxHeight: 140, objectFit: 'contain' }}
         component="img"
@@ -21,11 +21,14 @@ const ElectionsCard = ({ candidate, onVote }) => {
           {candidate.name}
         </Typography>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+          Rol: {candidate.role}
+        </Typography>
+        <Typography variant="body2" sx={{ color: 'text.secondary' }}>
           Votes: {candidate.votes}
         </Typography>
       </CardContent>
       <CardActions style={{display: 'flex', justifyContent: 'center'}}>
-        <Button variant='outlined' size="medium" onClick={() => onVote(candidate.id)}>
+        <Button variant='outlined' sx={{ fontSize: '1.2rem', padding: '1rem 3.5rem' }} onClick={() => onVote(candidate.id)}>
           Vote
         </Button>
       </CardActions>
