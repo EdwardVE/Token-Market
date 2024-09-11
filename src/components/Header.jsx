@@ -18,6 +18,9 @@ const Header = () => {
         <Link to="/pera" className={location.pathname === "/pera" ? "active" : ""} >
             Connet with Pera Wallet
         </Link>
+        <Link to="/Elections" className={location.pathname === "/pera" ? "active" : ""} >
+            Elections
+        </Link>
       </nav>
     </header>
   );

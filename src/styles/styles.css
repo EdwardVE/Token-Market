@@ -41,6 +41,11 @@ body {
     object-fit: contain;
     border-radius: 5px;
   }
+  .candidate-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
   form {
     display: flex;
     flex-direction: column;

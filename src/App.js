@@ -6,6 +6,7 @@ import SellToken from './pages/SellToken';
 import Header from './components/Header';
 import PeraWalletConnectComponent from './components/PeraWalletConnectComponent';
 import TutorialPeraWallet from './pages/TutorialPeraWallet';
+import Elections from './pages/Elections';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/sell" element={<SellToken />} />
         <Route path="/pera" element={<PeraWalletConnectComponent />} />
         <Route path="/Tutorial" element={<TutorialPeraWallet/>} />
+        <Route path='/Elections' element={<Elections/>} />
       </Routes>
     </Router>
   );
